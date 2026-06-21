@@ -5,6 +5,7 @@ import NavBar from '/src/components/NavBar'
 import AboutMe from '/src/components/AboutMe'
 import Projects from '/src/components/Projects'
 import Contact from '/src/components/Contact'
+import Portfolio from './components/Portfolio'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       </div>
       <AboutMe />
       <Projects />
+      <Portfolio />
       <Contact />
     </>
   )
