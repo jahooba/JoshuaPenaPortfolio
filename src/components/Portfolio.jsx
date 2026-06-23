@@ -3,7 +3,7 @@ import Carousel from './Carousel.tsx';
 
 import HCO_issue1 from "/src/assets/comics/hco/issue1.png";
 import HCO_issue2 from "/src/assets/comics/hco/issue2.jpg";
-import HCO_issue3DRAFT from "/src/assets/comics/hco/[DRAFT]_issue3.jpg";
+import HCO_issue3DRAFT from "/src/assets/comics/hco/issue3_DRAFT.jpg";
 import HCO_issue3 from "/src/assets/comics/hco/issue3.jpg";
 import HCO_issue4 from "/src/assets/comics/hco/issue4.jpg";
 import HCO_issue5 from "/src/assets/comics/hco/concept_art.jpg";
