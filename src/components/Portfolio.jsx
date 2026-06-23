@@ -30,25 +30,31 @@ function Portfolio() {
 
     return (
       <>
-        <div className='portfolio-container'>
-          <div className='hco'>
-            <h2>Harpy, Charile, & Ordgul - Highlander Comics</h2>
-            <Carousel slides={HCO_IMAGES} />
-          </div>
+        <div id='portfolio'>
+          <div className='portfolio-container'>
+            <div className='hco'>
+              <h2>Harpy, Charile, & Ordgul - Highlander Comics</h2>
+              <p>This was my ambitious entrypoint into making comics at The Highlander. I wanted to introduce my original characters and their world to an audience familiar with sci-fi and mythology. It follows the adventures of three friends who travel across their world in search for cosmic power that calls to them individually. </p>
+              <Carousel slides={HCO_IMAGES} />
+            </div>
 
-          <div className='ideas-4-comix'>
-            <h2>Ideas 4 Comix</h2>
-            <Carousel slides={I4C_IMAGES} />
-          </div>        
+            <div className='ideas-4-comix'>
+              <h2>Ideas 4 Comix</h2>
+              <p>My next series at The Highlander was focused on capturing one-off ideas I had for a single-page comic. They usually relate to a quote, joke, or feeling I experienced and jotted down. These are usually more personal and meant to reach an audience that can find a deep connection with one piece rather than the entire collection. </p>
+              <Carousel slides={I4C_IMAGES} />
+            </div>        
 
-          <div className='badverts'>
-            <h2>Badverts</h2>
-            <Carousel slides={BADVERTS_IMAGES} />
-          </div>
+            <div className='badverts'>
+              <h2>Badvertisements</h2>
+              <p>The next series is my more comical one as it is my way of reinventing what a comic is by making them resemble advertisements seen in media. These "badverts" follow similar styles of ads seen in newspapers, magazines, and the internet. I am a follower of absurd humor and I practice this in my Badvertisements series.</p>
+              <Carousel slides={BADVERTS_IMAGES} />
+            </div>
 
-          <div className='chatito'>
-            <h2>Chatito</h2>
-            <Carousel slides={CHATITO_IMAGES} />
+            <div className='chatito'>
+              <h2>Chatito</h2>
+              <p>Chatito is my own original character that mirrors everything I do each week and makes me depict him doing so in my comics. He's such a copy-cat, or copy-potato, or whatever he is. But the thing with Chatito is that although he does the same things I do, he always finds a way to make it unique for him. </p>
+              <Carousel slides={CHATITO_IMAGES} />
+            </div>
           </div>
         </div>
       </>

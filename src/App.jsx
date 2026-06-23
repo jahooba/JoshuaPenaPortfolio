@@ -12,11 +12,14 @@ function App() {
   return (
     <>
       <NavBar />
-      <div className="background-container">
-        <img className="bkg-img" src={heroImg} alt="Santa Rosa Plateau background image" />
-      </div>
-      <div className="profile-container">
-        <img className="profile-img" src={profileImg} alt="Profile picture of Joshua Pena" />
+      <div className="hero-section">
+        <div className="background-container">
+          <img className="bkg-img" src={heroImg} alt="" />
+        </div>
+
+        <div className="profile-container">
+          <img className="profile-img" src={profileImg} alt="" />
+        </div>
       </div>
       <AboutMe />
       <Projects />

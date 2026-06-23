@@ -2,7 +2,7 @@ import './../css/AboutMe.css'
 
 function AboutMe() {
     return (
-        <div className="about-me">
+        <div id="about-me">
             <h1>Joshua Pena - Pursuing Master's Degree for Computer Science at UCR</h1>
             <h2>About Me</h2>
             <p>

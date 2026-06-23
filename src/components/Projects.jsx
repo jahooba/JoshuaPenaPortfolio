@@ -2,7 +2,7 @@ import './../css/Projects.css'
 
 function Projects() {
     return (
-        <div className="projects">
+        <div id='projects'>
             <h2>Projects</h2>
             <div className='grid-container'>
                 
